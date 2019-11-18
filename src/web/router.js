@@ -1,18 +1,18 @@
-import Home from "./pages/Home";
-import Me from "./pages/Me";
+import Home from './pages/Home';
+import Me from './pages/Me';
 
 const routes = [
   {
-    path: "/",
+    path: '/',
     exact: true,
     component: Home,
-    name: "home"
+    name: 'home'
   },
   {
-    path: "/me",
+    path: '/me',
     exact: true,
     component: Me,
-    name: "me"
+    name: 'me'
   }
 ];
 
