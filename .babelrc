@@ -1,0 +1,25 @@
+{
+  "presets": [
+    // "@babel/preset-env",
+    [
+      "@babel/preset-react",
+      {
+        // "pragma": "dom", // default pragma is React.createElement
+        "pragmaFrag": "DomFrag", // default is React.Fragment
+        "throwIfNamespace": false // defaults to true
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "absoluteRuntime": false,
+        "corejs": false,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+      }
+    ]
+  ]
+}

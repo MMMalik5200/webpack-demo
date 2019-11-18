@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "outDir": "./dist/",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es2015", "dom", "scripthost"],
+        "paths": {
+            "@/*": ["./*"]
+          }
+    },
+}

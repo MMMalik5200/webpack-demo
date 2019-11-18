@@ -1,0 +1,54 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack的练习项目",
+  "scripts": {
+    "client:dev": "scripty",
+    "client:prod": "scripty",
+    "client:server": "scripty",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack",
+    "prettier": "prettier --write ./**/*.js ./**/*.scss"
+  },
+  "author": "Malik",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-react": "^7.7.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^7.0.0-0",
+    "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "prettier": "1.19.1",
+    "sass-loader": "^8.0.0",
+    "scripty": "^1.9.1",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
