@@ -53,5 +53,8 @@
     "hooks": {
       "pre-commit": "precise-commits"
     }
-  }
+  },
+  "pre-commit": [
+    "prettier"
+  ]
 }
