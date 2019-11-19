@@ -10,7 +10,7 @@
     "build": "webpack",
     "prettier": "prettier --write ./**/*.js ./**/*.scss",
     "eslint": "./node_modules/.bin/eslint  \"./**/*.js\"",
-    "lint": "eslint ./ --cache --ignore-pattern .gitignore",
+    "lint": "eslint ./ --cache",
     "ok": "npm run prettier && npm run eslint"
   },
   "author": "Malik",
@@ -26,7 +26,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^6.0.3",
     "css-loader": "^3.2.0",
-    "eslint": "^5.16.0",
+    "eslint": "^5.12.0",
     "eslint-config-prettier": "^6.6.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
