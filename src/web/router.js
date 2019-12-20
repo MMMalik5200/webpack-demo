@@ -1,5 +1,16 @@
-import Home from './pages/Home';
-import Me from './pages/Me';
+import Loadable from 'react-loadable';
+import Loading from './components/Loading';
+
+const Home = Loadable({
+  loader: () => import('./pages/Home'),
+  loading: Loading
+});
+
+const Me = Loadable({
+  loader: () => import('./pages/Me'),
+  loading: Loading,
+  delay: 20000
+});
 
 const routes = [
   {

@@ -1,3 +1,9 @@
 .text {
   color: #6b2105;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
